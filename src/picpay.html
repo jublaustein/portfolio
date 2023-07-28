@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PicPay - Case Study</title>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/10.0.0/firebase-app-compat.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Plus+Jakarta+Sans:ital,wght@0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet"> 
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <!-- <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              montserrat: ['Montserrat', 'sans-serif'],
+              jakarta: ['Plus Jakarta Sans', 'sans-serif']
+            }
+          }
+        }
+      }  
+    </script> -->
+    <link href="/dist/output.css" rel="stylesheet">
+   
+  </head>
+  <body class="flex flex-wrap pt-2 bg-gradient-to-br w-full min-h-screen from-indigo-400 via-pink-600 to-amber-500 justify-center items-center">
+    <header class="">
+      <nav class="w-screen h-10 flex justify-center text-white py-10">
+          <ul class="flex flex-row justify-evenly items-center w-full font-bold">
+              <li class="pb-1 border-b-4 border-transparent hover:border-b-white">
+                  <a class="" href="./">Home</a>
+              </li>
+              <li class="pb-1 border-b-4 border-transparent hover:border-b-white">
+                <a href="./about">Sobre Mim</a>
+              </li>
+              <li class="pb-1 border-b-4 border-transparent hover:border-b-white">
+                <a href="./contact">Contato</a>
+              </li>
+          </ul>
+      </nav>
+  </header>
+    <main class="flex flex-col w-11/12 font-jakarta font-normal bg-white shadow items-center">
+      <img src="./img/cover-xs.png" alt="Imagem de capa do case study com as telas projetadas" srcset="" class="">
+      <section class="flex flex-wrap w-full gap-8 px-6 py-14">
+        <div class="flex flex-col gap-2">
+          <h2 class="font-montserrat font-black text-3xl pb-2">Problema</h2>
+          <p class="leading-relaxed">Através da análise de feedbacks deixados em avaliações nas lojas de aplicativos, pude perceber que a maior dor dos usuários é a <strong>alta carga cognitiva causada pela interface</strong> do aplicativo, que contém muitas informações já na tela inicial, dificultando o acesso dos usuários aos serviços mais utilizados.</p>
+          <p class="leading-relaxed">Ademais, há uma <strong>falha na arquitetura de informação</strong> que dificulta o acesso ao suporte, tanto via chat automatizado, quanto ao atendimento humano.</p>  
+        </div>
+        <div class="flex flex-col gap-2">
+          <h2 class="font-bold text-3xl pb-2 font-montserrat">Solução</h2>
+          <p class="leading-relaxed">A solução proposta é um <strong>novo design para a tela inicial</strong> do aplicativo, seguindo a Lei de Hicks, diminuindo a carga cognitiva do usuário e facilitando a customização da interface para que cada pessoa tenha disponível os serviços que mais utiliza.</p>
+          <p class="leading-relaxed">Além disso, há a <strong>integração do acesso ao suporte na tela de mensagens</strong>, assim, todos os tickets abertos pelos usuários permanecerão num mesmo local, de fácil acesso, bem como a inclusão de referências aos portais de ajuda já na tela inicial.</p>  
+        </div>
+        <div class="flex flex-wrap justify-stretch gap-8">
+          <div class="flex flex-col gap-2 w-screen md:w-auto">
+            <h2 class="font-bold text-3xl font-montserrat">Ferramentas</h2>
+            <ul class="list-inside list-disc">
+              <li>
+                Figma
+              </li>
+              <li>
+                Apple Notes
+              </li>
+              <li>
+                Useberry
+              </li>
+            </ul> 
+          </div>
+          <div class="flex flex-col gap-2 w-screen  md:w-auto">
+            <h2 class="font-bold text-3xl pb-2 font-montserrat">Funções</h2>
+            <ul class="list-inside list-disc">
+              <li>
+                Pesquisa
+              </li>
+              <li>
+                Visual Design
+              </li>
+              <li>
+                Prototipação
+              </li>
+            </ul> 
+          </div>
+          <div class="flex flex-col gap-2 w-screen  lg:w-auto">
+            <h2 class="font-bold text-3xl pb-2 font-montserrat">Tempo</h2>
+            <ul class="list-inside list-disc">
+              <li>
+                <strong>Projeto:</strong> 48 horas
+              </li>
+              <li>
+                <strong>Pesquisa:</strong> 9 horas
+              </li>
+              <li>
+                <strong>Design:</strong> 34 horas
+              </li>
+              <li>
+                <strong>Testes:</strong> 5 horas
+              </li>
+            </ul> 
+          </div>
+          <div class="flex flex-col gap-4 w-screen  lg:w-auto">
+            <h2 class="font-bold text-3xl font-montserrat">Time</h2>
+            <ul class="list-inside list-disc">
+              <li>
+                1 Designer UI/UX
+              </li>
+            </ul> 
+          </div>
+        </div>
+      </section>
+      <section class="flex flex-wrap py-14 px-6 w-full justify-center items-center gap-9">
+        <h2 class="text-black font-montserrat text-4xl text-center w-full">O Processo de Design</h2>
+        <div class="flex flex-col items-center gap-4 w-28 h-28">
+          <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
+            <path d="M42.5 50.0001H55V45.0001C55 40.8579 51.6422 37.5001 47.5 37.5001C45.111 37.5001 42.9829 38.6171 41.6094 40.3573M42.5 50.0001H17.5M42.5 50.0001V45.0001C42.5 43.3595 42.184 41.7927 41.6094 40.3573M17.5 50.0001H4.99994V45.0001C4.99994 40.8579 8.35781 37.5001 12.5 37.5001C14.889 37.5001 17.0171 38.6171 18.3906 40.3573M17.5 50.0001V45.0001C17.5 43.3595 17.816 41.7927 18.3906 40.3573M18.3906 40.3573C20.2337 35.7526 24.737 32.5 30 32.5C35.263 32.5 39.7663 35.7526 41.6094 40.3573M37.5 17.5C37.5 21.6422 34.1421 25 30 25C25.8578 25 22.5 21.6422 22.5 17.5C22.5 13.3579 25.8578 10 30 10C34.1421 10 37.5 13.3579 37.5 17.5ZM52.5 25C52.5 27.7615 50.2615 30 47.5 30C44.7386 30 42.5 27.7615 42.5 25C42.5 22.2386 44.7386 20 47.5 20C50.2615 20 52.5 22.2386 52.5 25ZM17.5 25C17.5 27.7615 15.2614 30 12.5 30C9.73852 30 7.49994 27.7615 7.49994 25C7.49994 22.2386 9.73852 20 12.5 20C15.2614 20 17.5 22.2386 17.5 25Z" stroke="#086D39" stroke-width="3.00001" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <h3 class="text-center text-bold font-montserrat">Imersão</h3>
+        </div>
+        <div class="flex flex-col items-center gap-4 w-28 h-28">
+          <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
+            <path d="M22.5 12.5H17.5C14.7386 12.5 12.5 14.7386 12.5 17.5V47.5001C12.5 50.2615 14.7386 52.5001 17.5 52.5001H42.5001C45.2615 52.5001 47.5001 50.2615 47.5001 47.5001V17.5C47.5001 14.7386 45.2615 12.5 42.5001 12.5H37.5001M22.5 12.5C22.5 15.2614 24.7386 17.5 27.5 17.5H32.5C35.2615 17.5 37.5001 15.2614 37.5001 12.5M22.5 12.5C22.5 9.73858 24.7386 7.5 27.5 7.5H32.5C35.2615 7.5 37.5001 9.73858 37.5001 12.5M30 30H37.5001M30 40.0001H37.5001M22.5 30H22.525M22.5 40.0001H22.525" stroke="#086D39" stroke-width="3.00001" stroke-linecap="round"/>
+          </svg>
+          <h3 class="text-center text-bold font-montserrat">Definição</h3>
+        </div>
+        <div class="flex flex-col items-center gap-4 w-28 h-28">
+          <svg xmlns="http://www.w3.org/2000/svg" width="60" height="61" viewBox="0 0 60 61" fill="none">
+            <path d="M24.1588 43.379H35.8412M30 8.37891V10.8789M45.9099 14.969L44.1421 16.7368M52.5001 30.8788H50.0001M10.0001 30.8788H7.50006M15.8578 16.7368L14.09 14.969M21.1611 39.7179C16.2796 34.8363 16.2796 26.9217 21.1611 22.0402C26.0427 17.1586 33.9573 17.1586 38.8388 22.0402C43.7204 26.9217 43.7204 34.8363 38.8388 39.7179L37.4711 41.0856C35.8889 42.6678 35 44.8138 35 47.0514V48.379C35 51.1404 32.7614 53.379 30 53.379C27.2385 53.379 25 51.1404 25 48.379V47.0514C25 44.8138 24.1111 42.6678 22.5289 41.0856L21.1611 39.7179Z" stroke="#086D39" stroke-width="3.00001" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <h3 class="text-center text-bold font-montserrat">Ideação</h3>
+        </div>
+        <div class="flex flex-col items-center gap-4 w-28 h-28">
+          <svg xmlns="http://www.w3.org/2000/svg" width="60" height="61" viewBox="0 0 60 61" fill="none">
+            <path d="M9.99994 20.8789V10.8789M9.99994 10.8789H20M9.99994 10.8789L22.5 23.3789M50 20.8789V10.8789M50 10.8789H40M50 10.8789L37.5 23.3789M9.99994 40.879V50.879M9.99994 50.879H20M9.99994 50.879L22.5 38.379M50 50.879L37.5 38.379M50 50.879V40.879M50 50.879H40" stroke="#086D39" stroke-width="3.00001" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>       
+          <h3 class="text-center text-bold font-montserrat">Design</h3>
+        </div>
+        <div class="flex flex-col items-center gap-4 w-28 h-28">
+          <svg xmlns="http://www.w3.org/2000/svg" width="60" height="61" viewBox="0 0 60 61" fill="none">
+            <path d="M48.57 39.3264C47.872 38.6284 46.983 38.1526 46.015 37.959L40.0462 36.7652C36.7753 36.1111 33.3797 36.5658 30.3962 38.0575L29.6028 38.4543C26.6193 39.946 23.2237 40.4008 19.9528 39.7466L15.1234 38.7807C13.4841 38.4528 11.7894 38.966 10.6073 40.1481M19.9995 10.7559H39.9995L37.4995 13.2559V26.1848C37.4995 27.5109 38.0263 28.7827 38.964 29.7204L51.464 42.2204C54.6138 45.3702 52.383 50.7559 47.9285 50.7559H12.0705C7.61599 50.7559 5.38515 45.3702 8.53498 42.2204L21.035 29.7204C21.9727 28.7827 22.4995 27.5109 22.4995 26.1848V13.2559L19.9995 10.7559Z" stroke="#086D39" stroke-width="3.00001" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>         
+          <h3 class="text-center text-bold font-montserrat">Testes</h3>
+        </div>
+        <div class="flex flex-col items-center gap-4 w-28 h-28">
+          <svg xmlns="http://www.w3.org/2000/svg" width="60" height="61" viewBox="0 0 60 61" fill="none">
+            <path d="M20 30.7559H20.025M30 30.7559H30.025M40 30.7559H40.025M52.5 30.7559C52.5 41.8016 42.4264 50.7559 30 50.7559C26.1518 50.7559 22.5293 49.8972 19.3616 48.3836L7.49994 50.7559L10.9874 41.456C8.77885 38.3618 7.49994 34.6916 7.49994 30.7559C7.49994 19.7102 17.5736 10.7559 30 10.7559C42.4264 10.7559 52.5 19.7102 52.5 30.7559Z" stroke="#086D39" stroke-width="3.00001" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>          
+          <h3 class="text-center text-bold font-montserrat">Reflexões</h3>
+        </div>
+      </section>
+      <section class="flex flex-wrap py-14 px-6 w-full justify-evenly items-center gap-8">
+        <h2 class="font-montserrat font-black text-3xl pb-2">Dados Demográficos</h2>
+        <p class="leading-relaxed">Como não é possível acessar os dados demográficos de uso do aplicativo PicPay, por analogia, tem-se os dados referentes ao site <span class="italic">picpay.com</span> obtidos do portal <span class="italic">similarweb</span>, que disponibiliza métricas para páginas da web. A partir desses dados podemos criar uma persona que representa o público alvo.</p>
+        <div>
+          <h3 class="font-montserrat font-black text-2xl pb-2">Distribuição por genêro</h3>
+          <img src="./img/gender.svg" alt="">
+        </div>
+        <div>
+          <h3 class="font-montserrat font-black text-2xl pb-4">Distribuição por idade</h3>
+          <img src="./img/verticalGraph.svg" alt="">
+        </div>
+        <p class="text-stone-500 text-xs">Dados obtidos a partir do acesso ao endereço https://www.similarweb.com/website/picpay.com/ em 21 de julho de 2023.</p>
+      </section>
+      <section class="flex flex-wrap py-14 px-6 w-full gap-8 ">
+        <h2 class="font-montserrat font-black text-3xl pb-2 w-full">Persona</h2>
+        <div class="flex flex-col w-full">
+          <div class="flex justify-center">
+            <img class="h-52" src="./img/persona/personaSitting.png" alt="">
+          </div>
+          <div class="bg-green-800 text-white py-6 px-5 w-full">
+            <h3 class="font-montserrat text-2xl font-black">Ana Souza</h3>
+            <p>27, Arquiteta Jr.</p>
+            <p class="flex gap-2 pb-8">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                  <path d="M17.6569 17.5455C16.7202 18.4821 14.7616 20.4408 13.4138 21.7886C12.6327 22.5696 11.3677 22.5701 10.5866 21.789C9.26234 20.4647 7.34159 18.544 6.34315 17.5455C3.21895 14.4213 3.21895 9.35601 6.34315 6.23182C9.46734 3.10762 14.5327 3.10762 17.6569 6.23182C20.781 9.35601 20.781 14.4213 17.6569 17.5455Z" stroke="#F3F3F3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M15 11.8887C15 13.5455 13.6569 14.8887 12 14.8887C10.3431 14.8887 9 13.5455 9 11.8887C9 10.2318 10.3431 8.88867 12 8.88867C13.6569 8.88867 15 10.2318 15 11.8887Z" stroke="#F3F3F3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+            São Paulo, Brasil</p>
+            <p class="italic font-light">”Gosto de programas que me auxiliam a completar minhas tarefas diárias sem parecer que preciso de um curso para decifrar qual o próximo passo tomar.”</p>
+          </div>
+        </div>
+        <div class="flex flex-col w-full gap-4">
+          <div class="flex gap-2 items-center w-full">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+              <path d="M10 6.38867H5C3.89543 6.38867 3 7.2841 3 8.38867V17.3887C3 18.4932 3.89543 19.3887 5 19.3887H19C20.1046 19.3887 21 18.4932 21 17.3887V8.38867C21 7.2841 20.1046 6.38867 19 6.38867H14M10 6.38867V5.38867C10 4.2841 10.8954 3.38867 12 3.38867C13.1046 3.38867 14 4.2841 14 5.38867V6.38867M10 6.38867C10 7.49324 10.8954 8.38867 12 8.38867C13.1046 8.38867 14 7.49324 14 6.38867M9 14.3887C10.1046 14.3887 11 13.4932 11 12.3887C11 11.2841 10.1046 10.3887 9 10.3887C7.89543 10.3887 7 11.2841 7 12.3887C7 13.4932 7.89543 14.3887 9 14.3887ZM9 14.3887C10.3062 14.3887 11.4174 15.2235 11.8292 16.3887M9 14.3887C7.69378 14.3887 6.58249 15.2235 6.17065 16.3887M15 11.3887H18M15 15.3887H17" stroke="#086D39" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <h3 class="font-montserrat text-2xl font-black">Dados Pessoais</h3>
+          </div>
+          <div class="flex flex-col gap-5">       
+            <p class="flex justify-between w-full"><strong>Educação:</strong> Bacharel</p>
+            <p class="flex justify-between w-full"><strong>Exp. Profissional:</strong> 4 anos</p>
+            <p class="flex justify-between w-full"><strong>Aparelhos:</strong> iPhone 12, Dell XPS 13</p>
+          </div>
+        </div>
+        <div class="flex flex-col w-full gap-5">
+          <div class="flex gap-2 items-center w-full">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 33" fill="none">
+              <path d="M13 23.6081L12 27.6081L10.6667 28.9414H21.3333L20 27.6081L19 23.6081M4 18.2747H28M6.66667 23.6081H25.3333C26.8061 23.6081 28 22.4142 28 20.9414V7.60807C28 6.13531 26.8061 4.94141 25.3333 4.94141H6.66667C5.19391 4.94141 4 6.13531 4 7.60807V20.9414C4 22.4142 5.19391 23.6081 6.66667 23.6081Z" stroke="#086D39" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <h3 class="font-montserrat text-2xl font-black">Exp. com Tecnologia</h3>
+          </div>
+          <img src="./img/techExp.png" alt="Gráfico mostrando três níveis de experiência, sendo, da esquerda para a direita: Baixa, Média e Alta. O ícone Média está destacado.">
+        </div>
+        <div class="flex flex-col w-full gap-4">
+          <div class="flex gap-2 items-center w-full">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+              <path d="M13 16.2422H12V12.2422H11M12 8.24219H12.01M21 12.2422C21 17.2128 16.9706 21.2422 12 21.2422C7.02944 21.2422 3 17.2128 3 12.2422C3 7.27162 7.02944 3.24219 12 3.24219C16.9706 3.24219 21 7.27162 21 12.2422Z" stroke="#086D39" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <h3 class="font-montserrat text-2xl font-black">Sobre</h3>
+          </div>
+          <p class="leading-relaxed">Ana mudou recentemente para São Paulo e ainda está se adaptando ao novo ritmo de vida. Ela trabalha como arquiteta junior num pequeno escritório de arquitetura. Ela é apaixonada por design de interiores e estética arquitetônica. Apesar de ser proficiente nos softwares de modelagem em 3D, não possui muita experiência com tecnologia, preferindo aplicativos diretos e visuais, que facilitem suas atividades diárias.</p>
+        </div>
+        <div class="flex flex-col w-full gap-4">
+          <div class="flex gap-2 items-center w-full">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+              <path d="M11 4.24219C11 3.13762 11.8954 2.24219 13 2.24219C14.1046 2.24219 15 3.13762 15 4.24219V5.24219C15 5.79447 15.4477 6.24219 16 6.24219H19C19.5523 6.24219 20 6.6899 20 7.24219V10.2422C20 10.7945 19.5523 11.2422 19 11.2422H18C16.8954 11.2422 16 12.1376 16 13.2422C16 14.3468 16.8954 15.2422 18 15.2422H19C19.5523 15.2422 20 15.6899 20 16.2422V19.2422C20 19.7945 19.5523 20.2422 19 20.2422H16C15.4477 20.2422 15 19.7945 15 19.2422V18.2422C15 17.1376 14.1046 16.2422 13 16.2422C11.8954 16.2422 11 17.1376 11 18.2422V19.2422C11 19.7945 10.5523 20.2422 10 20.2422H7C6.44772 20.2422 6 19.7945 6 19.2422V16.2422C6 15.6899 5.55228 15.2422 5 15.2422H4C2.89543 15.2422 2 14.3468 2 13.2422C2 12.1376 2.89543 11.2422 4 11.2422H5C5.55228 11.2422 6 10.7945 6 10.2422V7.24219C6 6.6899 6.44772 6.24219 7 6.24219H10C10.5523 6.24219 11 5.79447 11 5.24219V4.24219Z" stroke="#086D39" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <h3 class="font-montserrat text-2xl font-black">Comportamentos</h3>
+          </div>
+          <ul class="list-disc list-inside leading-relaxed">
+            <li>Divide apartamento com uma amiga</li>
+            <li>Vai de carro para o trabalho</li>
+            <li>Almoça em restaurantes todos os dias</li>
+            <li>Viaja para visitar a família 2 vezes ao mês</li>
+            <li>Gosta de sair com os amigos aos fins de semana</li>
+          </ul>
+        </div>
+        <div class="flex flex-col w-full gap-4">
+          <div class="flex gap-2 items-center w-full">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+              <path d="M4 4.24219V3.36719H3.125V4.24219H4ZM20 4.24219H20.875V3.36719H20V4.24219ZM6.38128 11.6235C6.03957 11.9652 6.03957 12.5192 6.38128 12.8609C6.72299 13.2026 7.27701 13.2026 7.61872 12.8609L6.38128 11.6235ZM10 9.24219L10.6187 8.62347C10.277 8.28176 9.72299 8.28176 9.38128 8.62347L10 9.24219ZM13 12.2422L12.3813 12.8609C12.723 13.2026 13.277 13.2026 13.6187 12.8609L13 12.2422ZM17.6187 8.86091C17.9604 8.5192 17.9604 7.96518 17.6187 7.62347C17.277 7.28176 16.723 7.28176 16.3813 7.62347L17.6187 8.86091ZM7.38128 20.6235C7.03957 20.9652 7.03957 21.5192 7.38128 21.8609C7.72299 22.2026 8.27701 22.2026 8.61872 21.8609L7.38128 20.6235ZM12 17.2422L12.6187 16.6235C12.277 16.2818 11.723 16.2818 11.3813 16.6235L12 17.2422ZM15.3813 21.8609C15.723 22.2026 16.277 22.2026 16.6187 21.8609C16.9604 21.5192 16.9604 20.9652 16.6187 20.6235L15.3813 21.8609ZM3 3.36719C2.51675 3.36719 2.125 3.75894 2.125 4.24219C2.125 4.72544 2.51675 5.11719 3 5.11719V3.36719ZM21 5.11719C21.4832 5.11719 21.875 4.72544 21.875 4.24219C21.875 3.75894 21.4832 3.36719 21 3.36719V5.11719ZM4 5.11719H20V3.36719H4V5.11719ZM19.125 4.24219V16.2422H20.875V4.24219H19.125ZM19 16.3672H5V18.1172H19V16.3672ZM4.875 16.2422V4.24219H3.125V16.2422H4.875ZM5 16.3672C4.93096 16.3672 4.875 16.3112 4.875 16.2422H3.125C3.125 17.2777 3.96447 18.1172 5 18.1172V16.3672ZM19.125 16.2422C19.125 16.3112 19.069 16.3672 19 16.3672V18.1172C20.0355 18.1172 20.875 17.2777 20.875 16.2422H19.125ZM7.61872 12.8609L10.6187 9.86091L9.38128 8.62347L6.38128 11.6235L7.61872 12.8609ZM9.38128 9.86091L12.3813 12.8609L13.6187 11.6235L10.6187 8.62347L9.38128 9.86091ZM13.6187 12.8609L17.6187 8.86091L16.3813 7.62347L12.3813 11.6235L13.6187 12.8609ZM8.61872 21.8609L12.6187 17.8609L11.3813 16.6235L7.38128 20.6235L8.61872 21.8609ZM11.3813 17.8609L15.3813 21.8609L16.6187 20.6235L12.6187 16.6235L11.3813 17.8609ZM3 5.11719H21V3.36719H3V5.11719Z" fill="#086D39"/>
+            </svg>
+            <h3 class="font-montserrat text-2xl font-black">Objetivos</h3>
+          </div>
+          <ul class="list-disc list-inside leading-relaxed">
+            <li>Quer ser reconhecida no trabalho</li>
+            <li>Quer aprender a investir</li>
+            <li>Quer aprender a investir</li>
+            <li>Quer fazer novas amizades</li>
+            <li>Quer incorporar mais escolhas sustentáveis em sua vida</li>
+            <li>Quer fazer uma pós-graduação</li>
+          </ul>
+        </div>
+      </section>
+      <section class="flex flex-wrap py-14 px-6 w-full gap-8 ">
+        <h2 class="font-montserrat font-black text-3xl pb-2">Jornada do Usuário</h2>
+        <div class="flex flex-col w-full">
+          <div class="flex justify-center">
+            <img class="h-40" src="./img/persona/personaBigSmile.png" alt="">
+          </div>
+          <div class="bg-green-800 text-white py-6 px-5 w-full">
+            <h3 class="font-montserrat text-2xl font-black">Ana Souza</h3>
+            <p>27, Arquiteta Jr.</p>
+            <p class="flex gap-2">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                  <path d="M17.6569 17.5455C16.7202 18.4821 14.7616 20.4408 13.4138 21.7886C12.6327 22.5696 11.3677 22.5701 10.5866 21.789C9.26234 20.4647 7.34159 18.544 6.34315 17.5455C3.21895 14.4213 3.21895 9.35601 6.34315 6.23182C9.46734 3.10762 14.5327 3.10762 17.6569 6.23182C20.781 9.35601 20.781 14.4213 17.6569 17.5455Z" stroke="#F3F3F3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M15 11.8887C15 13.5455 13.6569 14.8887 12 14.8887C10.3431 14.8887 9 13.5455 9 11.8887C9 10.2318 10.3431 8.88867 12 8.88867C13.6569 8.88867 15 10.2318 15 11.8887Z" stroke="#F3F3F3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+            São Paulo, Brasil</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="p-8 justify-center text-center text-white font-medium text-lg md:text-2x" >
+      <p>Criado por Julia Blaustein © 2023 - Ícones fornecidos por <span><a class="pb-0.5 hover:border-b-2" href="https://icons8.com">Icons8</a></span></p>
+    </footer>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const loadEl = document.querySelector('#load');
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        // // The Firebase SDK is initialized and available here!
+        //
+        // firebase.auth().onAuthStateChanged(user => { });
+        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+        // firebase.firestore().doc('/foo/bar').get().then(() => { });
+        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
+        // firebase.messaging().requestPermission().then(() => { });
+        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+        // firebase.analytics(); // call to activate
+        // firebase.analytics().logEvent('tutorial_completed');
+        // firebase.performance(); // call to activate
+        //
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+        try {
+          let app = firebase.app();
+          let features = [
+            'auth', 
+            'database', 
+            'firestore',
+            'functions',
+            'messaging', 
+            'storage', 
+            'analytics', 
+            'remoteConfig',
+            'performance',
+          ].filter(feature => typeof app[feature] === 'function');
+          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
+        } catch (e) {
+          console.error(e);
+          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
+        }
+      });
+    </script>
+  </body>
+</html>

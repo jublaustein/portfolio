@@ -1,15 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './public/index.html',
-    "./src/**/*.{html,js}"
+    "./public/**/*.{html,js}"
   ],
   theme: {
-    // screens: {
-    //   'sm': {'min': '280px', 'max': '765px'}
-    // },
-    extend: {},
+    extend: {
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
+        jakarta: ['Plus Jakarta Sans', 'sans-serif']
+    },
   },
-  plugins: [],
+    plugins: [],
+  }
 }
-
