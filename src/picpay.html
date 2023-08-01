@@ -9,7 +9,7 @@
     <script defer src="/__/firebase/10.0.0/firebase-app-compat.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Plus+Jakarta+Sans:ital,wght@0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Plus+Jakarta+Sans:ital,wght@0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet"> 
     <link href="../dist/output.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
@@ -32,18 +32,18 @@
           </ul>
       </nav>
   </header>
-    <main class="flex flex-col w-11/12 font-jakarta font-normal bg-white shadow items-center">
+    <main class="flex flex-col w-screen font-jakarta font-normal bg-[#fbfffe] shadow items-center">
       <img src="./img/cover-xs.png" alt="Imagem de capa do case study com as telas projetadas" srcset="" class="">
       <section class="flex flex-wrap w-full gap-8 px-6 py-14">
         <div class="flex flex-col gap-2">
           <h2 class="font-montserrat font-black text-3xl pb-2">Problema</h2>
-          <p class="leading-relaxed">Através da análise de feedbacks deixados em avaliações nas lojas de aplicativos, pude perceber que a maior dor dos usuários é a <strong>alta carga cognitiva causada pela interface</strong> do aplicativo, que contém muitas informações já na tela inicial, dificultando o acesso dos usuários aos serviços mais utilizados.</p>
-          <p class="leading-relaxed">Ademais, há uma <strong>falha na arquitetura de informação</strong> que dificulta o acesso ao suporte, tanto via chat automatizado, quanto ao atendimento humano.</p>  
+          <p class="leading-relaxed max-w-prose">Através da análise de feedbacks deixados em avaliações nas lojas de aplicativos, pude perceber que a maior dor dos usuários é a <strong>alta carga cognitiva causada pela interface</strong> do aplicativo, que contém muitas informações já na tela inicial, dificultando o acesso dos usuários aos serviços mais utilizados.</p>
+          <p class="leading-relaxed max-w-prose">Ademais, há uma <strong>falha na arquitetura de informação</strong> que dificulta o acesso ao suporte, tanto via chat automatizado, quanto ao atendimento humano.</p>  
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="font-bold text-3xl pb-2 font-montserrat">Solução</h2>
-          <p class="leading-relaxed">A solução proposta é um <strong>novo design para a tela inicial</strong> do aplicativo, seguindo a Lei de Hicks, diminuindo a carga cognitiva do usuário e facilitando a customização da interface para que cada pessoa tenha disponível os serviços que mais utiliza.</p>
-          <p class="leading-relaxed">Além disso, há a <strong>integração do acesso ao suporte na tela de mensagens</strong>, assim, todos os tickets abertos pelos usuários permanecerão num mesmo local, de fácil acesso, bem como a inclusão de referências aos portais de ajuda já na tela inicial.</p>  
+          <p class="leading-relaxed max-w-prose">A solução proposta é um <strong>novo design para a tela inicial</strong> do aplicativo, seguindo a Lei de Hicks, diminuindo a carga cognitiva do usuário e facilitando a customização da interface para que cada pessoa tenha disponível os serviços que mais utiliza.</p>
+          <p class="leading-relaxed max-w-prose">Além disso, há a <strong>integração do acesso ao suporte na tela de mensagens</strong>, assim, todos os tickets abertos pelos usuários permanecerão num mesmo local, de fácil acesso, bem como a inclusão de referências aos portais de ajuda já na tela inicial.</p>  
         </div>
         <div class="flex flex-wrap justify-stretch gap-8">
           <div class="flex flex-col gap-2 w-screen md:w-auto">
@@ -142,7 +142,7 @@
       </section>
       <section class="flex flex-wrap py-14 px-6 w-full justify-evenly items-center gap-8">
         <h2 class="font-montserrat font-black text-3xl pb-2">Dados Demográficos</h2>
-        <p class="leading-relaxed">Como não é possível acessar os dados demográficos de uso do aplicativo PicPay, por analogia, tem-se os dados referentes ao site <span class="italic">picpay.com</span> obtidos do portal <span class="italic">similarweb</span>, que disponibiliza métricas para páginas da web. A partir desses dados podemos criar uma persona que representa o público alvo.</p>
+        <p class="leading-relaxed max-w-prose">Como não é possível acessar os dados demográficos de uso do aplicativo PicPay, por analogia, tem-se os dados referentes ao site <span class="italic">picpay.com</span> obtidos do portal <span class="italic">similarweb</span>, que disponibiliza métricas para páginas da web. A partir desses dados podemos criar uma persona que representa o público alvo.</p>
         <div>
           <h3 class="font-montserrat font-black text-2xl pb-2">Distribuição por genêro</h3>
           <img src="./img/gender.svg" alt="">
@@ -151,7 +151,7 @@
           <h3 class="font-montserrat font-black text-2xl pb-4">Distribuição por idade</h3>
           <img src="./img/verticalGraph.svg" alt="">
         </div>
-        <p class="text-stone-500 text-xs">Dados obtidos a partir do acesso ao endereço https://www.similarweb.com/website/picpay.com/ em 21 de julho de 2023.</p>
+        <p class="text-stone-500 text-xs max-w-prose">Dados obtidos a partir do acesso ao endereço https://www.similarweb.com/website/picpay.com/ em 21 de julho de 2023.</p>
       </section>
       <section class="flex flex-wrap py-14 px-6 w-full gap-8">
         <h2 class="font-montserrat font-black text-3xl pb-2 w-full">Persona</h2>
@@ -262,7 +262,7 @@
           </div>
           <div class="flex flex-col mt-8">
             <h3 class="font-montserrat text-2xl font-black pb-4">Expectativas</h3>
-            <p class="leading-relaxed">
+            <p class="leading-relaxed max-w-prose">
               <strong>Conveniência e eficiência:</strong> realizar um pagamento simples e rápido durante o horário de pico. <br>
               <strong>Segurança:</strong> ter os dados de pagamento protegidos pelo app e garantir que a transação está sendo feita para o destinatário correto.</p>
           </div>
@@ -311,7 +311,7 @@
         </div>
         <div class="bg-[url('./img/emotions/graphLine.png')]"></div>
       </section>
-      <section class="flex flex-wrap gap-8 py-14 px-6 w-full">
+      <section class="flex flex-wrap gap-16 py-14 px-6 w-full">
         <h2 class="font-montserrat font-black text-3xl pb-2 w-full">Mapa de Empatia</h2>
         <div class="flex flex-col gap-5 w-full">
           <div class="flex gap-2 items-center w-full">
@@ -320,32 +320,341 @@
             </svg>
             <h3 class="font-montserrat text-2xl font-black">Diz</h3>
           </div>
-          <div class="main-carousel w-min" data-flickity='{ "cellAlign": "left", "fullscreen": true, "prevNextButtons": false }'>
+          <div class="main-carousel lg:flex" data-flickity='{ "contain": true, "cellAlign": "left", "prevNextButtons": false, "watchCSS": true}'>
             <div class="carousel-cell">
-              <div class="w-[11.25rem] h-[11.25rem] bg-green-100 flex flex-col flex-0 gap-4 rounded-b-md shadow mr-4">
-                <div class="w-[11.25rem] h-7 bg-green-600 static top-0"></div>
-                <p class="text-green-800 font-bold italic text-center px-4">”Quero um app que me permita fazer pagamentos de forma rápida”</p>
+              <div class="w-[11.25rem] h-7 bg-green-600 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-green-100 flex items-center flex-0 gap-4 rounded-b-md shadow mr-5">
+                <p class="text-green-800 font-semibold italic text-center px-4">”Quero um app que me permita fazer pagamentos de forma rápida”</p>
+              </div>
+            </div> 
+            <div class="carousel-cell">
+              <div class="w-[11.25rem] h-7 bg-green-600 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-green-100 flex items-center flex-0 gap-4 rounded-b-md shadow mr-5">
+                <p class="text-green-800 font-semibold italic text-center px-4">”Gostaria que existisse um app que me mostrasse tudo o que preciso já na tela inicial”</p>
               </div>
             </div>
-              
-              <div class="w-[11.25rem] h-[11.25rem] bg-green-100 flex flex-col flex-0 gap-4 rounded-b-md shadow mr-4">
-                <div class="w-[11.25rem] h-7 bg-green-600 static top-0"></div>
-                <p class="text-green-800 font-bold italic text-center px-4">”Gostaria que existisse um app que me mostrasse tudo o que preciso já na tela inicial”</p>
+            <div class="carousel-cell">
+              <div class="w-[11.25rem] h-7 bg-green-600 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-green-100 flex items-center flex-0 gap-4 rounded-b-md shadow mr-5">
+                <p class="text-green-800 font-semibold italic text-center px-4">”Não gosto de aplicativos que usam linguagem complexa, gosto de simplicidade”</p>
               </div>
-              <div class="w-[11.25rem] h-[11.25rem] bg-green-100 flex flex-col flex-0 gap-4 rounded-b-md shadow mr-4">
-                <div class="w-[11.25rem] h-7 bg-green-600 static top-0"></div>
-                <p class="text-green-800 font-bold italic text-center px-4">”Não gosto de aplicativos que usam linguagem complexa, gosto de simplicidade”</p>
-              </div>
-          </div>
-          
+            </div>
+          </div>  
          </div>
+         <div class="flex flex-col gap-5 w-full">
+          <div class="flex gap-2 items-center w-full">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none">
+              <path d="M12.8847 23.0085H19.1153M16 4.3418V5.67513M24.4853 7.85652L23.5425 8.79933M28.0001 16.3417H26.6667M5.33339 16.3417H4.00006M8.45752 8.79932L7.51471 7.85652M11.2859 21.0559C8.68245 18.4524 8.68245 14.2313 11.2859 11.6278C13.8894 9.02429 18.1105 9.02429 20.714 11.6278C23.3175 14.2313 23.3175 18.4524 20.714 21.0559L19.9846 21.7853C19.1407 22.6292 18.6667 23.7737 18.6667 24.9671V25.6751C18.6667 27.1479 17.4727 28.3418 16 28.3418C14.5272 28.3418 13.3333 27.1479 13.3333 25.6751V24.9671C13.3333 23.7737 12.8593 22.6292 12.0154 21.7853L11.2859 21.0559Z" stroke="#60A5FA" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <h3 class="font-montserrat text-2xl font-black">Pensa</h3>
+          </div>
+          <div class="main-carousel lg:flex" data-flickity='{ "contain": true, "cellAlign": "left", "prevNextButtons": false, "watchCSS": true}'>
+            <div class="carousel-cell">
+              <div class="w-[11.25rem] h-7 bg-blue-600 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-blue-100 flex items-center flex-0 gap-4 rounded-b-md shadow mr-5">
+                <p class="text-blue-800 font-semibold text-center px-4">Será que terei algum problema quando for pagar?</p>
+              </div>
+            </div> 
+            <div class="carousel-cell">
+              <div class="w-[11.25rem] h-7 bg-blue-600 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-blue-100 flex items-center flex-0 gap-4 rounded-b-md shadow mr-5">
+                <p class="text-blue-800 font-semibold text-center px-4">Espero que o horário de pico do almoço não atrapalhe o uso do app</p>
+              </div>
+            </div>
+            <div class="carousel-cell">
+              <div class="w-[11.25rem] h-7 bg-blue-600 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-blue-100 flex items-center flex-0 gap-4 rounded-b-md shadow mr-5">
+                <p class="text-blue-800 font-semibold text-center px-4">É muito prático poder pagar com o celular sem precisar carregar dinheiro vivo</p>
+              </div>
+            </div>
+          </div>  
+         </div>
+         <div class="flex flex-col gap-5 w-full">
+          <div class="flex gap-2 items-center w-full">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none">
+              <path d="M15.2258 20.5676L23 28.3418C24.3807 29.7225 26.6193 29.7225 28 28.3418C29.3807 26.9611 29.3807 24.7225 28 23.3418L20.1644 15.5062M15.2258 20.5676L18.554 16.5263C18.9753 16.0146 19.5389 15.6927 20.1644 15.5062M15.2258 20.5676L9.01909 28.1043C8.37382 28.8879 7.41196 29.3418 6.39691 29.3418C4.52085 29.3418 3 27.8209 3 25.9449C3 24.9298 3.45393 23.968 4.23747 23.3227L13.3528 15.8159M20.1644 15.5062C20.8969 15.2877 21.7144 15.2549 22.4879 15.3202C22.6567 15.3345 22.8275 15.3418 23 15.3418C26.3137 15.3418 29 12.6555 29 9.3418C29 8.46144 28.8104 7.62537 28.4698 6.87218L24.1016 11.2404C22.614 10.8989 21.443 9.72797 21.1016 8.24042L25.4699 3.87211C24.7166 3.53144 23.8805 3.3418 23 3.3418C19.6863 3.3418 17 6.02809 17 9.3418C17 9.51431 17.0073 9.68512 17.0216 9.85394C17.1428 11.2879 16.9264 12.873 15.8155 13.7878L15.6794 13.8999M13.3528 15.8159L7.87868 10.3418H6L3 5.3418L5 3.3418L10 6.3418V8.22048L15.6794 13.8999M13.3528 15.8159L15.6794 13.8999M24.5 24.8418L21 21.3418M6.48964 25.8419H6.49965V25.8519H6.48964V25.8419Z" stroke="#EFC943" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <h3 class="font-montserrat text-2xl font-black">Faz</h3>
+          </div>
+          <div class="main-carousel lg:flex" data-flickity='{ "contain": true, "cellAlign": "left", "prevNextButtons": false, "watchCSS": true}'>
+            <div class="carousel-cell">
+              <div class="w-[11.25rem] h-7 bg-yellow-400 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-yellow-100 flex items-center flex-0 gap-4 rounded-b-md shadow mr-5">
+                <p class="text-yellow-800 font-semibold text-center px-4">Usa o app como solução para pagamentos eficientes</p>
+              </div>
+            </div> 
+            <div class="carousel-cell">
+              <div class="w-[11.25rem] h-7 bg-yellow-400 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-yellow-100 flex items-center flex-0 gap-4 rounded-b-md shadow mr-5">
+                <p class="text-yellow-800 font-semibold text-center px-4">Testa novos apps, mas acaba usando sempre os que já está mais acostumada</p>
+              </div>
+            </div>
+            <div class="carousel-cell">
+              <div class="w-[11.25rem] h-7 bg-yellow-400 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-yellow-100 flex items-center flex-0 gap-4 rounded-b-md shadow mr-5">
+                <p class="text-yellow-800 font-semibold text-center px-4">Divulga os serviços que a auxiliam a realizar as tarefas diárias</p>
+              </div>
+            </div>
+          </div>  
+         </div>
+        <div class="flex flex-col gap-5 w-full">
+          <div class="flex gap-2 items-center w-full">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none">
+              <path d="M28 11.3418C28 8.02809 25.2018 5.3418 21.75 5.3418C19.1692 5.3418 16.9537 6.8435 16 8.98636C15.0463 6.8435 12.8308 5.3418 10.25 5.3418C6.79822 5.3418 4 8.02809 4 11.3418C4 20.9692 16 27.3418 16 27.3418C16 27.3418 28 20.9692 28 11.3418Z" stroke="#F87171" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <h3 class="font-montserrat text-2xl font-black">Sente</h3>
+          </div>
+          <div class="main-carousel lg:flex" data-flickity='{ "contain": true, "cellAlign": "left", "prevNextButtons": false, "watchCSS": true}'>
+            <div class="carousel-cell">
+              <div class="w-[11.25rem] h-7 bg-red-500 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-red-100 flex flex-0 items-center rounded-b-md shadow mr-5">
+                <p class="text-red-800 font-semibold text-center px-4">Ansiedade quando precisa aprender a mexer num sistema novo</p>
+              </div>
+            </div> 
+            <div class="carousel-cell">
+              <div class="w-[11.25rem] h-7 bg-red-500 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-red-100 flex items-center flex-0 rounded-b-md shadow mr-5">
+                <p class="text-red-800 font-semibold text-center px-4">Preocupação com a estabilidade dos serviços oferecidos pelo app</p>
+              </div>
+            </div>
+            <div class="carousel-cell">
+              <div class="w-[11.25rem] h-7 bg-red-500 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-red-100 flex items-center flex-0 rounded-b-md shadow mr-5">
+                <p class="text-red-800 font-semibold text-center px-4">Confortada pelas medidas de segurança do app</p>
+              </div>
+            </div>
+          </div>  
+        </div>
       </section>
-
+      <section class="flex flex-col gap-20 py-14 px-6 w-full">
+        <h1 class="font-montserrat font-black text-4xl pb-2">Definição</h1>
+        <div class="flex flex-col gap-4">
+          <h2 class="font-montserrat font-black text-3xl pb-2">Mapa de Afinidade - Avaliações Negativas</h2>
+          <p class="leading-relaxed">Analisando as avaliações negativas sobre o aplicativo PicPay nas plataformas Apple App Store, Google Play Store e Reclame Aqui, é possível extrair relatos de experiências que impactam negativamente a jornada do usuário.</p>
+        </div>
+        <div class="flex flex-col gap-4">
+          <h3 class="font-montserrat font-black text-2xl">Interface pesada</h3>
+          <p class="leading-relaxed">Interface complexa, navegação confusa, excesso de informações e dificuldade para acessar os serviços mais utilizados representa a maioria das avaliações analisadas.</p>
+          <div class="main-carousel lg:flex lg:flex-wrap" data-flickity='{ "contain": true, "cellAlign": "left", "prevNextButtons": false, "watchCSS": true}'>
+            <div class="carousel-cell">
+              <div class="w-[11.25rem] h-7 bg-blue-600 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-blue-100 flex items-center flex-0 gap-4 rounded-b-md shadow mr-5">
+                <p class="text-blue-800 font-semibold italic text-center px-4">”Navegação não é tão simples”</p>
+              </div>
+            </div> 
+            <div class="carousel-cell">
+              <div class="w-[11.25rem] h-7 bg-blue-600 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-blue-100 flex items-center flex-0 gap-4 rounded-b-md shadow mr-5">
+                <p class="text-blue-800 font-semibold italic text-center px-4">”Deixa a desejar na questão clareza para buscar serviços no app”</p>
+              </div>
+            </div>
+            <div class="carousel-cell">
+              <div class="w-[11.25rem] h-7 bg-blue-600 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-blue-100 flex items-center flex-0 gap-4 rounded-b-md shadow mr-5">
+                <p class="text-blue-800 font-semibold italic text-center px-4">“Poluído de informações, não é intuitivo”</p>
+              </div>
+            </div>
+            <div class="carousel-cell">
+              <div class="w-[11.25rem] h-7 bg-blue-600 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-blue-100 flex items-center flex-0 gap-4 rounded-b-md shadow mr-5">
+                <p class="text-blue-800 font-semibold italic text-center px-4">”Layout deveria ser mais prático”</p>
+              </div>
+            </div> 
+            <div class="carousel-cell">
+              <div class="w-[11.25rem] h-7 bg-blue-600 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-blue-100 flex items-center flex-0 gap-4 rounded-b-md shadow mr-5">
+                <p class="text-blue-800 font-semibold italic text-center px-4">”Tela poluída dificulta achar o que queremos rapidamente”</p>
+              </div>
+            </div>
+            <div class="carousel-cell">
+              <div class="w-[11.25rem] h-7 bg-blue-600 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-blue-100 flex items-center flex-0 gap-4 rounded-b-md shadow mr-5">
+                <p class="text-blue-800 font-semibold italic text-center px-4">”Interface abarrotada e confusa”</p>
+              </div>
+            </div>
+          </div>  
+        </div>
+        <div class="flex flex-col gap-4">
+          <h3 class="font-montserrat font-black text-2xl">Dificuldade para contatar o suporte</h3>
+          <p class="leading-relaxed">O segundo tema mais comentado é a dificuldade de contatar diretamente o suporte, sendo disponibilizado apenas o chat automatizado, ficando o contato com atendente humano ”escondido” nos menus do aplicativo.</p>
+          <div class="main-carousel lg:flex" data-flickity='{ "contain": true, "cellAlign": "left", "prevNextButtons": false, "watchCSS": true}'>
+            <div class="carousel-cell">
+              <div class="w-[11.25rem] h-7 bg-yellow-400 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-yellow-100 flex items-center flex-0 gap-4 rounded-b-md shadow mr-5">
+                <p class="text-yellow-800 font-semibold italic text-center px-4">”Não possui meio de contato para falar com atendente na central”</p>
+              </div>
+            </div> 
+            <div class="carousel-cell">
+              <div class="w-[11.25rem] h-7 bg-yellow-400 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-yellow-100 flex items-center flex-0 gap-4 rounded-b-md shadow mr-5">
+                <p class="text-yellow-800 font-semibold italic text-center px-4">”Não consigo achar um número de telefone para o suporte”</p>
+              </div>
+            </div>
+            <div class="carousel-cell">
+              <div class="w-[11.25rem] h-7 bg-yellow-400 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-yellow-100 flex items-center flex-0 gap-4 rounded-b-md shadow mr-5">
+                <p class="text-yellow-800 font-semibold italic text-center px-4">”Falta de canal de atendimento para enviar informações técnicas”</p>
+              </div>
+            </div>
+            <div class="carousel-cell">
+              <div class="w-[11.25rem] h-7 bg-yellow-400 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-yellow-100 flex items-center flex-0 gap-4 rounded-b-md shadow mr-5">
+                <p class="text-yellow-800 font-semibold italic text-center px-4">”Não existe canal de comunicação direta com atendente”</p>
+              </div>
+            </div>
+          </div>  
+        </div>
+        <div class="flex flex-col gap-4">
+          <h3 class="font-montserrat font-black text-2xl">Excesso de mensagens e notificações</h3>
+          <p class="leading-relaxed">O excesso de notificações push enviadas, mensagens de pop-up nas telas do aplicativo e informações irrelevantes enviadas em momentos inoportunos representa o terceiro tema mais comentado.</p>
+          <div class="main-carousel lg:flex" data-flickity='{ "contain": true, "cellAlign": "left", "prevNextButtons": false, "watchCSS": true}'>
+            <div class="carousel-cell">
+              <div class="w-[11.25rem] h-7 bg-red-500 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-red-100 flex flex-0 items-center rounded-b-md shadow mr-5">
+                <p class="text-red-800 font-semibold italic text-center px-4">”Excesso de notificações para propagandas das próprias funcionalidades”</p>
+              </div>
+            </div> 
+            <div class="carousel-cell">
+              <div class="w-[11.25rem] h-7 bg-red-500 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-red-100 flex items-center flex-0 rounded-b-md shadow mr-5">
+                <p class="text-red-800 font-semibold italic text-center px-4">”Excesso de propagandas via notificações e mensagens no chat”</p>
+              </div>
+            </div>
+            <div class="carousel-cell">
+              <div class="w-[11.25rem] h-7 bg-red-500 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-red-100 flex items-center flex-0 rounded-b-md shadow mr-5">
+                <p class="text-red-800 font-semibold italic text-center px-4">”Propagandas do próprio app sobrepõem as informações necessárias”</p>
+              </div>
+            </div>
+            <div class="carousel-cell">
+              <div class="w-[11.25rem] h-7 bg-red-500 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-red-100 flex items-center flex-0 rounded-b-md shadow mr-5">
+                <p class="text-red-800 font-semibold italic text-center px-4">”Cheio de pop-ups e notificações desnecessárias”</p>
+              </div>
+            </div>
+            <div class="carousel-cell">
+              <div class="w-[11.25rem] h-7 bg-red-500 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-red-100 flex items-center flex-0 rounded-b-md shadow mr-5">
+                <p class="text-red-800 font-semibold italic text-center px-4">”Mostra a mesma mensagem repetidas vezes, atrapalhando o uso”</p>
+              </div>
+            </div>
+          </div> 
+        </div>
+        <div class="flex flex-col gap-4">
+          <h2 class="text-black font-montserrat text-3xl">Insights</h2>
+          <div class="main-carousel lg:flex" data-flickity='{ "contain": true, "cellAlign": "left", "prevNextButtons": false, "watchCSS": true}'>
+            <div class="carousel-cell">
+              <div class="w-[11.25rem] h-7 bg-green-600 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-green-100 flex items-center flex-0 gap-4 rounded-b-md shadow mr-5">
+                <p class="text-green-800 font-semibold text-center px-4">Simplificar a interface da tela inicial</p>
+              </div>
+            </div> 
+            <div class="carousel-cell">
+              <div class="w-[11.25rem] h-7 bg-green-600 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-green-100 flex items-center flex-0 gap-4 rounded-b-md shadow mr-5">
+                <p class="text-green-800 font-semibold text-center px-4">Permitir a customização da área de serviços de acesso rápido</p>
+              </div>
+            </div>
+            <div class="carousel-cell">
+              <div class="w-[11.25rem] h-7 bg-green-600 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-green-100 flex items-center flex-0 gap-4 rounded-b-md shadow mr-5">
+                <p class="text-green-800 font-semibold text-center px-4">Reduzir as informações de marketing apresentadas</p>
+              </div>
+            </div>
+            <div class="carousel-cell">
+              <div class="w-[11.25rem] h-7 bg-green-600 static top-0"></div>
+              <div class="w-[11.25rem] h-40 bg-green-100 flex items-center flex-0 gap-4 rounded-b-md shadow mr-5">
+                <p class="text-green-800 font-semibold text-center px-4">Facilitar o acesso ao atendimento humano</p>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </section>
+      <section class="flex flex-wrap gap-16 py-14 px-6 w-full">
+        <div class="flex flex-col gap-8 w-full">
+          <h1 class="font-montserrat font-black text-4xl">Ideação</h1>
+          <h2 class="font-montserrat font-black text-3xl">Wireframes</h2>  
+        </div>
+        <div class="main-carousel w-full" data-flickity='{ "imagesLoaded": true, "contain": true, "cellAlign": "left"}'>
+          <img class="carousel-cell" src="./img/wireframes/home.v1.png" alt="" srcset="">
+          <img class="carousel-cell" src="./img/wireframes/home.v2.png" alt="" srcset="">
+          <img class="carousel-cell" src="./img/wireframes/home.v3.png" alt="" srcset="">
+          <img class="carousel-cell" src="./img/wireframes/notifications.png" alt="" srcset="">
+          <img class="carousel-cell" src="./img/wireframes/chat.png" alt="" srcset="">
+        </div>
+        <div class="w-full">
+          <h2 class="font-montserrat font-black text-3xl pb-4">Fluxo Atual de acesso ao suporte - Via Configurações</h2> 
+          <img class="w-full" src="./img/fluxos/fluxoConfiguracoes.png" alt="" sizes="" srcset="">
+        </div>
+        <div class="w-full">
+          <h2 class="font-montserrat font-black text-3xl pb-4">Fluxo Atual de acesso ao suporte - Via Mais Opções</h2> 
+          <img class="w-full" src="./img/fluxos/fluxoMaisOpcoes.png" alt="" sizes="" srcset="">
+        </div>
+        <div class="w-full">
+          <h2 class="font-montserrat font-black text-3xl pb-4">Fluxo proposto - Via Mensagens</h2> 
+          <img class="w-full" src="./img/fluxos/fluxoChat.png" alt="" sizes="" srcset="">
+        </div>
+        <div class="w-full">
+          <h2 class="font-montserrat font-black text-3xl pb-4">Fluxo proposto - Via Banner</h2> 
+          <img class="w-full" src="./img/fluxos/fluxoBanner.png" alt="" sizes="" srcset="">
+        </div>
+      </section>
+      <section class="flex flex-wrap gap-16 py-14 px-6 w-full">
+        <div class="flex flex-col gap-8 w-full">
+          <h1 class="font-montserrat font-black text-4xl">Design</h1>
+          <h2 class="font-montserrat font-black text-3xl">Protótipo de alta fidelidade</h2>
+        </div>
+        <div class="flex flex-col justify-center items-center gap-8">
+          <div class="w-full">
+            <h3 class="font-montserrat font-black text-2xl">Tela Inicial</h3>
+            <p class="leading-relaxed">Optei por manter a tela inicialmente com altura fixa, apresentando apenas os elementos essenciais para o uso do app.</p>
+          </div>
+          <img class="responsiveAnnotations" src="./img/designsAnotados/newHome.png" alt="" sizes="" srcset="">
+          <p class="text-center text-zinc-800 text-base font-bold leading-normal max-w-prose">A nova tela inicial se torna compatível com a WCAG 1.3.6 [AAA], ao permitir a customização do usuário, que agora pode diminuir a carga cognitiva da interface se desejar</p>
+        </div>
+        <div class="flex flex-col justify-center items-center gap-8">
+          <div class="w-full">
+            <h3 class="font-montserrat font-black text-2xl">Novo Sheet de Customização</h3>
+            <p class="leading-relaxed">Mostra todos os serviços disponíveis e permite reorganizar os ícones apresentados na tela inicial.</p>
+          </div>
+          <img class="responsiveAnnotations" src="./img/designsAnotados/customSheet.png" alt="" sizes="" srcset="">
+        </div>
+        <div class="flex flex-col justify-center items-center gap-8">
+          <div class="w-full">
+            <h3 class="font-montserrat font-black text-2xl">Modo Reordenar</h3>
+            <p class="leading-relaxed">O usuário pode reposicionar os ícones como preferir.</p>
+          </div>
+          <img class="responsiveAnnotations" src="./img/designsAnotados/wiggle.png" alt="" sizes="" srcset="">
+        </div>
+        <div class="flex flex-col justify-center items-center gap-8">
+          <div class="w-full">
+            <h3 class="font-montserrat font-black text-2xl">Tela de Início Customizada</h3>
+            <p class="leading-relaxed">Agora totalmente personalizada pelo usuário, a tela inicial apresenta apenas os serviços desejados.</p>
+          </div>
+          <div class="flex flex-col gap-8 items-center justify-center">
+            <img class="responsiveAnnotations" src="./img/designsAnotados/customHome.png" alt="" sizes="" srcset="">
+          </div>
+        </div>
+        <div class="flex flex-col justify-center items-center gap-8">
+          <div class="w-full">
+            <h3 class="font-montserrat font-black text-2xl">Novo Canal de Suporte</h3>
+            <p class="leading-relaxed">Agora totalmente personalizada pelo usuário, a tela inicial apresenta apenas os serviços desejados.</p>
+          </div>
+          <img class="responsiveAnnotations" src="./img/designsAnotados/supportChannel.png" alt="" sizes="" srcset="">
+        </div>
+        <div class="flex flex-col justify-center items-center gap-8">
+          <div class="w-full">
+            <h3 class="font-montserrat font-black text-2xl">Novas Configurações para Notificações</h3>
+            <p class="leading-relaxed">Agora totalmente personalizada pelo usuário, a tela inicial apresenta apenas os serviços desejados</p>
+          </div>
+          <img class="responsiveAnnotations" src="./img/designsAnotados/customNotifications.png" alt="" sizes="" srcset="">
+        </div>
+      </section>
     </main>
     <footer class="p-8 justify-center text-center text-white font-medium text-lg md:text-2x" >
       <p>Criado por Julia Blaustein © 2023 - Ícones fornecidos por <span><a class="pb-0.5 hover:border-b-2" href="https://icons8.com">Icons8</a></span></p>
     </footer>
-    <!-- <script>
+       <!-- <script>
       var elem = document.querySelector('.carousel');
       var flkty = new Flickity( elem, {
         // options

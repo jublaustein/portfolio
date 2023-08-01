@@ -1030,6 +1030,10 @@ video {
   letter-spacing: 0.025em;
 }
 
+.text-amber-600 {
+  color: #d97706;
+}
+
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));

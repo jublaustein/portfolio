@@ -40,11 +40,50 @@
           </ul>
       </nav>
   </header>
-    <main class="flex justify-center items-center">
-      <div class="w-10/12 p-4 bg-white rounded-3xl shadow flex-col items-center inline-flex md:px-6 xl:px-28 max-w-5xl">
-        <img class="mb-2 w-10/12 md:w-72" src="./img/pfp.png" />
-        
+    <main class="flex justify-center items-center w-full">
+      <div class="p-4 bg-white rounded-3xl shadow flex flex-col items-center md:px-6 xl:px-28 max-w-5xl">
+        <!-- <img class="mb-2 w-10/12 md:w-72" src="./img/pfp.png" /> -->
+        <div class="relative flex flex-col justify-start items-center gap-7 w-full mb-8">
+          <div class="w-10/12 text-center text-zinc-800 text-base font-normal leading-normal">Os 8 serviços mais utilizados pelos usuários em destaque por padrão</div>
+          <!-- <svg class="absolute left-0 top-6 h-1/2"  viewBox="0 0 47 376" fill="none" xmlns="http://www.w3.org/2000/svg" data-original-height="376">
+
+              <path d="M46.7071 368.707C47.0976 368.317 47.0976 367.683 46.7071 367.293L40.3431 360.929C39.9526 360.538 39.3194 360.538 38.9289 360.929C38.5384 361.319 38.5384 361.953 38.9289 362.343L44.5858 368L38.9289 373.657C38.5384 374.047 38.5384 374.681 38.9289 375.071C39.3194 375.462 39.9526 375.462 40.3431 375.071L46.7071 368.707ZM46 367L25 367L25 369L46 369L46 367Z" fill="#086D39"/><path data-vertical d="M2 344L2.00002 18L1.5299e-05 18L1.04907e-06 344L2 344Z" fill="#086D39"/><path d="M25 367C12.2974 367 2 356.703 2 344L1.04907e-06 344C4.45545e-07 357.807 11.1929 369 25 369L25 367ZM18 7.43093e-07C8.05888 3.08553e-07 1.57335e-05 8.05887 1.5299e-05 18L2.00002 18C2.00002 9.16344 9.16345 2 18 2L18 7.43093e-07Z" fill="#086D39"/>
+
+              
+            </svg> -->
+          <div class="w-11/12 text-center text-zinc-800 text-base font-normal leading-normal">Novo botão editar, para customizar a disposição dos serviços em acesso rápido</div>
+          <!-- <svg class="absolute right-0 top-[92px] h-1/3"  viewBox="0 0 59 260" fill="none"  xmlns="http://www.w3.org/2000/svg">
+            <path vector-effect="non-scaling-stroke" d="M40.5 0.21875C39.9477 0.21875 39.5 0.666465 39.5 1.21875C39.5 1.77103 39.9477 2.21875 40.5 2.21875V0.21875ZM0.292893 221.793C-0.0976311 222.183 -0.0976311 222.817 0.292893 223.207L6.65685 229.571C7.04738 229.962 7.68054 229.962 8.07107 229.571C8.46159 229.181 8.46159 228.547 8.07107 228.157L2.41421 222.5L8.07107 216.843C8.46159 216.453 8.46159 215.819 8.07107 215.429C7.68054 215.038 7.04738 215.038 6.65685 215.429L0.292893 221.793ZM57 18.7187V198.5H59V18.7187H57ZM34 221.5H1V223.5H34V221.5ZM57 198.5C57 211.203 46.7025 221.5 34 221.5V223.5C47.8071 223.5 59 212.307 59 198.5H57ZM40.5 2.21875C49.6127 2.21875 57 9.60605 57 18.7187H59C59 8.50148 50.7173 0.21875 40.5 0.21875V2.21875Z" fill="#086D39"/>
+            </svg>
+             -->
+          <div class="relative flex justify-center">
+          <img class="w-3/4 rounded-xl shadow relative" src="img/designsFinais/home.png" />
+ 
+            <svg id="editBtn" class="absolute shadow-md rounded-full top-72 right-20" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="30" height="30" rx="15" fill="#086D39"/>
+              <path d="M15 8V22M22 15L8 15" stroke="white" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+
+          
+          </div>
+          
+            
+            
+          <!-- <img class="absolute left-0 bottom-36" src="./img/designsAnotados/connectorLineSmallL.svg" alt="" sizes="" srcset=""> -->
+          <div class="w-64 h-16 text-center text-zinc-800 text-base font-normal leading-normal">Banners contrastados permitem acesso rápido ao suporte, melhorando a navegação</div>
+          <div class="text-center text-zinc-800 text-base font-bold leading-normal">A nova tela inicial se torna compatível com a WCAG 1.3.6 [AAA], ao permitir a customização do usuário, que agora pode diminuir a carga cognitiva da interface se desejar</div>
+        </div> 
+        <div class="flex flex-col justify-center items-center gap-8">
+          <div class="w-full">
+            <h3 class="font-montserrat font-black text-2xl">Tela Inicial</h3>
+            <p class="leading-relaxed">Optei por manter a tela inicialmente com altura fixa, apresentando apenas os elementos essenciais para o uso do app.</p>
+          </div>
+          <img class="responsiveAnnotations" src="./img/designsAnotados/newHome.png" alt="">
+          <p class="text-center text-zinc-800 text-base font-bold leading-normal max-w-prose">A nova tela inicial se torna compatível com a WCAG 1.3.6 [AAA], ao permitir a customização do usuário, que agora pode diminuir a carga cognitiva da interface se desejar</p>
+        </div>
       </div>
+
+
     </main>
     <footer class="p-8 justify-center text-center text-white font-medium text-lg md:text-2x" >
       <p>Criado por Julia Blaustein © 2023 - Ícones fornecidos por <span><a class="pb-0.5 hover:border-b-2" href="https://icons8.com">Icons8</a></span></p>
